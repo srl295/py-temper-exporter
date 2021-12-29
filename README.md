@@ -11,7 +11,7 @@ Existing exporters don't seem to support my device, but `temper.py` does.
 1. install [poetry](https://python-poetry.org)
 2. fixup your device ownership with udev or manually (TODO)
 3. `poetry install`
-4. `poetry run …`
+4. `poetry run python3 -m py_temper_exporter` … listens on port 9204 (TODO)
 
 # Author
 
